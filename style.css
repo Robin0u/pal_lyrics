@@ -169,12 +169,13 @@
   }
 
   .image-container {
-    width: 80%; /* Réduire la largeur du conteneur de l'image cliquable */
+    width: 70%; /* Réduire la largeur du conteneur de l'image cliquable */
     max-width: 100%; /* S'assurer que l'image ne dépasse pas l'écran */
-    height: auto; /* Ajuster la hauteur automatiquement */
+    height: 100px; /* Ajuster la hauteur automatiquement */
     margin: 0 auto; /* Centrer horizontalement */
     position: relative; /* Réinitialiser la position si nécessaire */
     top: 0; /* Réinitialiser la position si nécessaire */
+	
   }
 
   .lesarticles img {
