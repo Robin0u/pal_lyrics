@@ -174,7 +174,7 @@
   }
 
   .lesarticles img {
-    width: 0%; /* Réduire la largeur de l'image "les articles" */
+    width: 80%; /* Réduire la largeur de l'image "les articles" */
 	height: auto; /* Ajuster la hauteur automatiquement */
     margin-left: auto; /* Centrer horizontalement */
     margin-right: auto;
