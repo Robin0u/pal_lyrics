@@ -158,57 +158,50 @@
       transform: scale(1.1);
     }
 	
-/* Ajoutez ces règles pour l'adaptation sur mobile */
+/* Ajoutez ces règles pour l'adaptation sur mobile et tablette */
 @media screen and (max-width: 768px) {
   body {
     padding: 0; /* Réinitialiser le padding du corps */
   }
 
   .page-title img {
-    width: 50%; /* Réduire la largeur de l'image du titre */
+    width: 70%; /* Ajuster la largeur de l'image du titre */
   }
 
   .image-container {
-    width: 70%; /* Réduire la largeur du conteneur de l'image cliquable */
-    max-width: 100%; /* S'assurer que l'image ne dépasse pas l'écran */
-    height: 100px; /* Ajuster la hauteur automatiquement */
+    width: 80%; /* Ajuster la largeur du conteneur de l'image cliquable */
+    height: auto; /* Ajuster la hauteur automatiquement */
     margin: 0 auto; /* Centrer horizontalement */
-    position: relative; /* Réinitialiser la position si nécessaire */
-    top: 0; /* Réinitialiser la position si nécessaire */
-	
   }
 
   .lesarticles img {
-    width: 80%; /* Réduire la largeur de l'image "les articles" */
-    max-width: 100%; /* S'assurer que l'image ne dépasse pas l'écran */
+    width: 90%; /* Ajuster la largeur de l'image "les articles" */
     height: auto; /* Ajuster la hauteur automatiquement */
     margin: 0 auto; /* Centrer horizontalement */
-    position: relative; /* Réinitialiser la position si nécessaire */
-    top: 0; /* Réinitialiser la position si nécessaire */
   }
 
   .overlay-text {
-    font-size: 14px; /* Réduire la taille de police pour un meilleur ajustement */
+    font-size: 14px; /* Ajuster la taille de police pour un meilleur ajustement */
   }
 
   .bottom-text {
-    font-size: 10px; /* Réduire la taille de police pour un meilleur ajustement */
+    font-size: 10px; /* Ajuster la taille de police pour un meilleur ajustement */
     position: absolute; /* Réinitialiser la position si nécessaire */
-    bottom: 20px; /* Espacement du bas de la page */
+    bottom: 10px; /* Espacement du bas de la page */
     left: 50%; /* Centrer les blocs horizontalement */
     transform: translateX(-50%); /* Centrer les blocs horizontalement */
   }
   
   .bottom-text-1 {
-    bottom: 10px;
+    bottom: 25px;
   }
 
   .bottom-text-2 {
-    bottom: 30px;
+    bottom: 40px;
   }
 
   .bottom-text-3 {
-    bottom: 50px;
+    bottom: 55px;
   }
 
   .bottom-text-4 {
