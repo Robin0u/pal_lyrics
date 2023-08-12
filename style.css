@@ -158,26 +158,30 @@
       transform: scale(1.1);
     }
 	
+/* Ajoutez ces règles pour l'adaptation sur mobile */
 @media screen and (max-width: 768px) {
+  body {
+    padding: 0; /* Réinitialiser le padding du corps */
+  }
+
   .page-title img {
     width: 50%; /* Réduire la largeur de l'image du titre */
   }
 
   .image-container {
-    width: 50%; /* Réduire la largeur du conteneur de l'image cliquable */
+    width: 80%; /* Réduire la largeur du conteneur de l'image cliquable */
     max-width: 100%; /* S'assurer que l'image ne dépasse pas l'écran */
     height: auto; /* Ajuster la hauteur automatiquement */
-	margin-left: auto; /* Centrer horizontalement */
-    margin-right: auto;
+    margin: 0 auto; /* Centrer horizontalement */
     position: relative; /* Réinitialiser la position si nécessaire */
     top: 0; /* Réinitialiser la position si nécessaire */
   }
 
   .lesarticles img {
     width: 80%; /* Réduire la largeur de l'image "les articles" */
-	height: auto; /* Ajuster la hauteur automatiquement */
-    margin-left: auto; /* Centrer horizontalement */
-    margin-right: auto;
+    max-width: 100%; /* S'assurer que l'image ne dépasse pas l'écran */
+    height: auto; /* Ajuster la hauteur automatiquement */
+    margin: 0 auto; /* Centrer horizontalement */
     position: relative; /* Réinitialiser la position si nécessaire */
     top: 0; /* Réinitialiser la position si nécessaire */
   }
@@ -188,6 +192,25 @@
 
   .bottom-text {
     font-size: 10px; /* Réduire la taille de police pour un meilleur ajustement */
+    position: absolute; /* Réinitialiser la position si nécessaire */
+    bottom: 20px; /* Espacement du bas de la page */
+    left: 50%; /* Centrer les blocs horizontalement */
+    transform: translateX(-50%); /* Centrer les blocs horizontalement */
+  }
+  
+  .bottom-text-1 {
+    bottom: 10px;
   }
 
-    }
+  .bottom-text-2 {
+    bottom: 30px;
+  }
+
+  .bottom-text-3 {
+    bottom: 50px;
+  }
+
+  .bottom-text-4 {
+    bottom: 70px;
+  }
+}
