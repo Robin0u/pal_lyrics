@@ -131,18 +131,6 @@
       bottom: 10px;
     }
 
-    .bottom-text-2 {
-      bottom: 30px;
-    }
-
-    .bottom-text-3 {
-      bottom: 50px;
-    }
-	
-	.bottom-text-4 {
-      bottom: 70px;
-    }
-	
     /* Afficher la superposition lorsque la souris passe sur le conteneur de l'image cliquable */
     .image-container:hover .overlay {
       opacity: 1;
