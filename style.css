@@ -27,8 +27,8 @@ body {
 }
 
 .lesarticles {
-	font-family : "Roboto", sans-serif;
-	font-size : 18px; 
+	font-family : "Rubik Doodle Shadow", sans-serif;
+	font-size : 20px; 
 	color : white;
 	text-align : center;
 	margin-bottom: 20px;
@@ -41,6 +41,10 @@ body {
       overflow: hidden;
 	  border-radius : 15px;
 	  transition : transform 0.4s ease-in-out;
+	  border-radius: 10px; 
+    border: 5px solid #E0C2A5; 
+    padding: 15px; 
+    display: inline-block; 
     }
 	
 .imgarticle1:hover {
@@ -50,6 +54,19 @@ body {
 .imgarticle1 img {
     max-width: 450px; 
     height: auto; 
+}
+
+.description {
+	font-family: Rubik, sans-serif;
+	font-size: 10;
+	color: white;
+	text-align : center;
+	border-radius: 10px; 
+    border: 5px solid #E0C2A5; 
+    padding: 15px; 
+    display: inline-block;
+    margin: 30px;
+    
 }
 
 .bottomtext {
